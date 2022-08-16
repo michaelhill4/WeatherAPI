@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+</head>
+<body>
+    <nav class ="navbar navbar-dark bg-primary mb-3">
+        <div class ="navContainer">
+            <a href="#" class="navTitle">weather app</a>
+        </div>
+    </nav>
+<div class ="searchArea">
+    <div class="search card card-body">
+        <h1>Get the Weather for a location</h1>
+        <p class="lead">Enter your location</p>
+        <input
+        type="text"
+        id="searchUser"
+        class="form-control"
+        placeholder="Location"
+        />
+    </div>
+</div>
+<br>
+<div class ="container text-center mt-2">
+<button class ="btn btn-primary" id="submit">Submit</button></div>
+
+<div class="content"></div>
+
+<script? src="./assets/fetch.js"></script>
+<script src="./assets/script.js"></script>
+
+
+</body>
+</html>
