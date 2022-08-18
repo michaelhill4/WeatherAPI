@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cerulean/bootstrap.min.css" integrity="sha384-3fdgwJw17Bi87e1QQ4fsLn4rUFqWw//KU0g8TvV6quvahISRewev6/EocKNuJmEw" crossorigin="anonymous">
+    <link rel = "stylesheet" href="./assets/style.css">
 </head>
 <body>
     <nav class ="navbar navbar-dark bg-primary mb-3">
@@ -29,9 +30,18 @@
 <div class ="container text-center mt-2">
 <button class ="btn btn-primary" id="submit">Submit</button></div>
 
-<div class="content"></div>
+<div id="content" class="bgblue">
+  
+</div>
+<div class="bgred">
+   <h1 id="cityInput">Lorem ipsum</h1>
+   <p id="tempInput">Temp</p>
+   <p id="windInput">Wind speed</p>
+   <p id="humidity">Humidity</p>
+   <p id="uv">UV index</p>
+</div>
 
-<script? src="./assets/fetch.js"></script>
+<script src="./assets/fetch.js"></script>
 <script src="./assets/script.js"></script>
 
 
